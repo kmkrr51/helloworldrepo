@@ -19,17 +19,22 @@ hwf.printHello();
 }
 
 
+
+
+
 public void printHelloWorldSuccess() {
 
 System.out.println("Inside method printHello of HelloWorldSuccess!");
+hws.printHello();
 
-return "HelloWorldSuccess";
 }
 
 
 public void printHelloWorldFailure() throws Exception{
 
-throw new Exception("Failure in method printHello of HelloWorlFailure class");
+
+hwf.printHello();
+
 
 }
 
